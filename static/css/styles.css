@@ -228,6 +228,68 @@ h1,h2,h3,h4{
   line-height: 1.4;
   font-size: 1rem;
 }
+/*teacher journey section*/
+
+.teacher-flow{
+  padding: 90px 80px;
+}
+.flow-container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.journey-section-tag{
+  margin-bottom: 40px;
+  text-align:center ;
+  display:block;
+}
+.journey-header{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+}
+
+.flow-step{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:80px;
+  margin-bottom: 70px;
+}
+.flow-content{
+  flex:1
+}
+.flow-badge{
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  display: block;
+}
+.flow-content h3{
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+.flow-content p{
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 30px;
+}
+.flow-img{
+  flex:1.4;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+.flow-img img{
+  width:100%;
+  height: auto;
+  display: block;
+}
+
+
 /*tech stack section*/
 .tech-stack{
   background-color: #7c4dff;
